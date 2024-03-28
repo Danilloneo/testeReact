@@ -1,9 +1,7 @@
-import './App.css';
-import { Title } from './teste';
+import Teste from './Teste'
 
 function App() {
-
   return <Teste />
 }
 
-export default App;
+export default App
