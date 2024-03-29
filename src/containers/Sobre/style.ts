@@ -2,9 +2,16 @@ import styled from 'styled-components'
 
 export const GithubSecao = styled.div`
   margin-top: 32px;
-  margin-botton: 64px;
+  margin-bottom: 64px;
 
   img {
     height: 157px;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      height: 200px;
+      width: 100%;
+    }
   }
 `
